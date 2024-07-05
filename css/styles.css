@@ -35,14 +35,46 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-brand);
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .span {
     color: var(--dark);
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .home-nav {
     background-color: var(--white-background);
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    border-bottom: 1px solid var(--accent);
+    height: 72px;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header-ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.header-ul .list:last-child {
+    margin: 0;
 }
 
 .header-ul .list .link {
@@ -61,6 +93,19 @@ body {
 
 .address {
     font-style: normal;
+}
+
+.address .address-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.address-ul .list {
+    margin-right: 40px;
+}
+
+.address-ul .list:last-child {
+    margin: 0;
 }
 
 .address .list .link {
