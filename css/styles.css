@@ -84,6 +84,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--dark);
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .header-ul .list .link:hover,
@@ -173,7 +174,16 @@ body {
 }
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-header {
@@ -197,7 +207,7 @@ body {
     list-style-type: none;
 }
 
-.seciton-ul .list {
+.section-ul .list {
     background-color: var(--white-background);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
