@@ -202,6 +202,7 @@ body {
 
 .footer {
     background-color: var(--dark);
+    padding: 100px 0;
 }
 
 .footer .logo {
@@ -212,10 +213,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brand);
+    display: inline-block;
+    margin-bottom: 16px;
+    
 }
 
 .footer .logo .span {
     color: #F4F4FD;
+    display: inline-block;
 }
 
 .footer .text {
@@ -223,4 +228,6 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--light);
+    max-width: 264px;
+    
 }
