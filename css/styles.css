@@ -1,3 +1,4 @@
+/* TANIMLANAN GENEL ÖZELLİKLER */
 :root {
     --primary-brand: #4D5AE5;
     --pressed-state: #404BBF;
@@ -17,6 +18,7 @@
     --font-family-logo: Raleway, sans-serif;
 }
 
+/* TANIMLANAN BODY ÖZELLİKLERİ */
 body {
     font-family: var(--font-family-main);
     color: var(--text);
@@ -27,6 +29,7 @@ body {
     letter-spacing: 0.02em;
 }
 
+/* TANIMLANAN LOGO ÖZELLİKLERİ */
 .logo {
     font-family: var(--font-family-logo);
     font-weight: 700;
@@ -48,6 +51,7 @@ body {
     padding: 0 15px;
 }
 
+/* TANIMLANAN HEADER ÖZELLİKLERİ */
 .home-nav {
     background-color: var(--white-background);
     display: flex;
@@ -122,6 +126,7 @@ body {
     color: var(--pressed-state);
 }
 
+/* TANIMLANAN HERO ÖZELLİKLERİ */
 .hero {
     background-color: var(--dark);
     padding: 188px 0;
@@ -145,6 +150,7 @@ body {
     margin-bottom: 48px;
 }
 
+/* TANIMLANAN BUTTON ÖZELLİKLERİ */
 .button {
     font-family: var(--font-family-main);
     font-weight: 500;
@@ -168,6 +174,7 @@ body {
     color: #FFFFFF;
 }
 
+/* TANIMLANAN SECTION-2 ÖZELLİKLERİ */
 .second-section {
     background-color: var(--light);
     padding: 120px 0;
@@ -236,6 +243,7 @@ body {
     text-align: center;
 }
 
+/* TANIMLANAN SECTION-3 ÖZELLİKLERİ */
 .our-team {
     background-color: var(--light);
     padding: 120px 0;
@@ -251,6 +259,12 @@ body {
     border-top: none;
 }
 
+/* TANIMLANAN SECTION-4 ÖZELLİKLERİ */
+.fourth-section{
+    background-color: var(--light);
+    padding: 120px 0;
+}
+
 .four {
     flex-wrap: wrap;
     column-gap: 24px;
@@ -261,11 +275,7 @@ body {
     width: calc((100% - 48px) / 3);
 }
 
-.fourth-section{
-    background-color: var(--light);
-    padding: 120px 0;
-}
-
+/* TANIMLANAN FOOTER ÖZELLİKLERİ */
 .footer {
     background-color: var(--dark);
     padding: 100px 0;
